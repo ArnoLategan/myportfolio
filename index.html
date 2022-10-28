@@ -339,7 +339,6 @@ function closeNav() {
 
 <script>
 let images1 = ['lg1.jpg','lg2.jpg','lg3.jpg'];
-let images2 = ['bedland1.jpg', 'bedland2.jpg','bedland3.jpg'];
 let images3 = ['zippydeals1.jpg', 'zippydeals2.jpg','zippydeals3.jpg'];
 let images4 = ['mawu1.jpg','mawu2.jpg','mawu3.jpg'];
 let images5 = ['visual1.jpg', 'visual2.jpg','visual3.jpg'];
@@ -347,13 +346,11 @@ let images6 = ['iwebhusolutions1.jpg', 'iwebhusolutions2.jpg','iwebhusolutions3.
 
 let index1 = 0;
 let index2 = 0;
-let index3 = 0;
 let index4 = 0;
 let index5 = 0;
 let index6 = 0;
 
 const imgElement1 = document.querySelector('#mainPhoto');
-const imgElement2 = document.querySelector('#mainPhoto2');
 const imgElement3 = document.querySelector('#mainPhoto3');
 const imgElement4 = document.querySelector('#mainP4');
 const imgElement5 = document.querySelector('#mainPhoto5');
@@ -362,8 +359,6 @@ const imgElement6 = document.querySelector('#mainPhoto6');
 function change() {
    imgElement1.src = images1[index1];
    index1 > 1 ? index1 = 0 : index1++;
-   imgElement2.src = images2[index2];
-   index2 > 1 ? index2 = 0 : index2++;
    imgElement3.src = images3[index3];
    index3 > 1 ? index3 = 0 : index3++;
    imgElement4.src = images4[index4];
